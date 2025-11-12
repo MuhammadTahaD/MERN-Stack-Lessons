@@ -1,0 +1,38 @@
+/* .h1{
+    background-color: orange;
+}
+#h1{
+    background-color: antiquewhite;
+}
+h1{
+    background-color: red !important;
+} */
+div{
+    background-color: #dc8d8d;
+    height: 1200px;
+    width: auto;
+}
+h2{
+    background-color: orange;
+    position: relative;
+    /* left: 100px;
+    bottom: 50px; */
+
+}
+h3{
+    background-color: royalblue;
+    position: fixed;
+    top: 0px;
+}
+h4{
+    background-color: red;
+    position: sticky;
+    top: 30px;
+}
+p{
+    background-color: chartreuse;
+    position: absolute;
+    left: 50px;
+    top: 70px;
+    z-index: 10;
+}

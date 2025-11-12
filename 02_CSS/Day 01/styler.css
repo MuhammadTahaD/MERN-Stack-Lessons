@@ -1,0 +1,56 @@
+/* Tag base selection */
+h1{
+    background-color: aqua;
+}
+ul{
+    background-color: bisque;
+
+}
+
+
+/* ID base Selection */
+#third{
+    background-color: antiquewhite;
+}
+#second{
+    background-color: violet;
+}
+
+
+/* Class Base Selection */
+.fourth{
+    background-color: #e86767;
+}
+.third{
+    background-color: #f5f118;
+}
+
+
+/* Group Base Selection */
+h1, .fourth, #first{
+    background-color: #1190ff;
+}
+
+
+/* font */
+h1{
+  font-family: "Libertinus Keyboard", system-ui;
+  font-weight: 400;
+  font-style: normal;
+}
+
+ul{
+    font-size: 20px;
+}
+li{
+    font-size: 1em;
+}
+h2{
+    font-size: 2rem;
+}
+h2{
+    font-size: 2vw;
+}
+li{
+    font-size: 3vh;
+}

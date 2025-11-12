@@ -1,0 +1,22 @@
+.container{
+    height: 400px;
+    width: 400px;
+    font-size: 50px;
+    background-color: aqua;
+}
+@media screen and (max-width:900px) {
+    .container{
+        height: 300px;
+        width: 300px;
+        background-color: green;
+        font-size: 40px;
+    }
+}
+@media screen and (max-width:600px) {
+    .container{
+        height: 300px;
+        width: 300px;
+        background-color: orange;
+        font-size: 60px;
+    }
+}   

@@ -1,0 +1,38 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    padding-top: 30px;
+}
+.container{
+    background-color: darkolivegreen;
+    border: 1px solid darkblue;
+    font-size: 40px;
+    padding: 10px;
+    color: white;
+    width: 70%;
+    border-radius: 5px;
+    white-space: nowrap;
+}
+h1{
+    /* margin-left: 100%; */
+    /* margin-right: 100%; */
+    overflow: hidden;
+    animation-name: move;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+}
+@keyframes move {
+    from{
+        margin-left: 100%;
+    }
+    to{
+        margin-left: -100%;
+    }
+}
+

@@ -1,0 +1,53 @@
+/* styler.css */
+#container {
+    height: 200px;
+    width: 300px;
+    background-color: white;
+    position: relative;
+}
+
+#circle {
+    height: 100px;
+    width: 100px;
+    background-color: red;
+    border-radius: 50%;
+    position: absolute;
+    left: 100px;
+    top: 50px;
+}
+
+.container2 {
+    height: 200px;
+    width: 300px;
+    background-color: yellow;
+    position: relative;
+}
+
+/* Boxes for cross pattern */
+.box1, .box3 {
+    height: 85px;
+    width: 85px;
+    background-color: blue;
+}
+
+.box3 {
+    position: absolute;
+    bottom: 0px;
+}
+
+.box2, .box4 {
+    height: 85px;
+    width: 170px; /* fixed typo */
+    position: absolute;
+    background-color: blue;
+}
+
+.box2 {
+    top: 0px;
+    right: 0px;
+}
+
+.box4 {
+    right: 0px;
+    bottom: 0px;
+}

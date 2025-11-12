@@ -1,0 +1,15 @@
+.container{
+    /* height: 200px;
+    width: 200px;
+    background-color: yellow;
+    border-radius: 50% ;
+    /* box-shadow: 10px 10px red; */
+    /* box-shadow: inset 10px 10px 10px 10px blue;
+    /* Offset-x Offset-y blur-radius spread-radius */
+    /* box-shadow: 0px 0px 10px 10px red; */
+    background-color: aqua;
+    height: 200px;
+    width: 200px;
+    overflow: scroll;
+
+}
